@@ -1,0 +1,8 @@
+{
+  "name": "WordDot: Kiddy Vocabulary Connect",
+  "description": "An interactive dot-to-dot English vocabulary game for kids to connect words into sentences or letters into words with custom vocabulary, image illustrations, and audio pronunciation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
