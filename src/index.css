@@ -1,0 +1,524 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body {
+    min-height: 100%;
+    overscroll-behavior-x: none;
+    overscroll-behavior-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Responsive board min-heights: keep short horizontal phones compact enough to see & scroll easily */
+  .board-min-h {
+    min-height: 230px;
+  }
+  .board-min-h-compact {
+    min-height: 200px;
+  }
+  @media (min-width: 640px) and (min-height: 580px) {
+    .board-min-h {
+      min-height: 380px;
+    }
+    .board-min-h-compact {
+      min-height: 280px;
+    }
+  }
+
+  /* Stretch gameplay shell to fill tall screens while NEVER clipping or blocking vertical swipe scrolling if content overflows */
+  @media (min-width: 768px) and (min-height: 680px) {
+    .viewport-fit-tall {
+      min-height: 100dvh;
+    }
+    .gameplay-fit-tall {
+      min-height: 100dvh;
+    }
+    .tall-min-h-0 {
+      min-height: 0 !important;
+    }
+    .mascot-ground-pin {
+      position: fixed;
+      bottom: 36dvh;
+      right: 3%;
+    }
+  }
+  @media (min-width: 1024px) and (min-height: 680px) {
+    .mascot-ground-pin {
+      right: 16%;
+    }
+  }
+  @media (min-width: 1280px) and (min-height: 680px) {
+    .mascot-ground-pin {
+      right: 24%;
+    }
+  }
+
+  /* Smooth proportional scaling for large classroom Smart TVs and 4K touch displays */
+  @media (min-width: 1500px) and (min-height: 780px) {
+    html {
+      font-size: 17px;
+    }
+  }
+  @media (min-width: 1920px) and (min-height: 940px) {
+    html {
+      font-size: 18px;
+    }
+  }
+  @media (min-width: 2560px) and (min-height: 1200px) {
+    html {
+      font-size: 21px;
+    }
+  }
+  @media (min-width: 3400px) and (min-height: 1600px) {
+    html {
+      font-size: 24px;
+    }
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  h1, h2, h3, .font-display {
+    font-family: 'Fredoka', sans-serif;
+  }
+}
+
+@keyframes bounceShort {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -6px, 0);
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(4px, -8px, 0);
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+  20%, 60% {
+    transform: translate3d(-7px, 0, 0);
+  }
+  40%, 80% {
+    transform: translate3d(7px, 0, 0);
+  }
+}
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translate3d(0, 8px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes pulseScale {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+}
+
+@keyframes dashFlow {
+  to {
+    stroke-dashoffset: -28;
+  }
+}
+
+.animate-bounce-short {
+  animation: bounceShort 2.2s ease-in-out infinite;
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.animate-shake {
+  animation: shake 0.42s ease-in-out;
+}
+
+.animate-pop-in {
+  animation: popIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes cloudDrift {
+  0% {
+    transform: translateX(-140px);
+  }
+  100% {
+    transform: translateX(calc(100vw + 140px));
+  }
+}
+
+@keyframes butterflyGlide {
+  0% {
+    transform: translate3d(-60px, 12px, 0) scale(0.95);
+  }
+  25% {
+    transform: translate3d(28vw, -16px, 0) scale(1.02);
+  }
+  50% {
+    transform: translate3d(56vw, 10px, 0) scale(0.96);
+  }
+  75% {
+    transform: translate3d(82vw, -14px, 0) scale(1.04);
+  }
+  100% {
+    transform: translate3d(calc(100vw + 80px), 6px, 0) scale(0.95);
+  }
+}
+
+@keyframes mascotSparkleFly {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 0, 0) scale(0.25) rotate(0deg);
+  }
+  18% {
+    opacity: 1;
+    transform: translate3d(calc(var(--sx) * 0.42), calc(var(--sy) * 0.42), 0) scale(1.22) rotate(var(--srot));
+  }
+  72% {
+    opacity: 1;
+    transform: translate3d(calc(var(--sx) * 0.94), calc(var(--sy) * 0.94), 0) scale(0.95) rotate(calc(var(--srot) * 1.6));
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(var(--sx), var(--sy), 0) scale(0.2) rotate(calc(var(--srot) * 2.1));
+  }
+}
+
+@keyframes mascotStarTwinkle {
+  0% {
+    opacity: 0;
+    transform: scale(0.2) rotate(-25deg);
+  }
+  30% {
+    opacity: 1;
+    transform: scale(1.3) rotate(12deg);
+  }
+  60% {
+    opacity: 0.95;
+    transform: scale(0.85) rotate(-8deg);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.15) rotate(35deg);
+  }
+}
+
+@keyframes mascotRingWave {
+  0% {
+    opacity: 0.95;
+    transform: scale(0.55) rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.52) rotate(38deg);
+  }
+}
+
+@keyframes mascotAuraFlash {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  25% {
+    opacity: 0.9;
+    transform: scale(1.12);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.42);
+  }
+}
+
+@keyframes mascotPopJump {
+  0% {
+    transform: scale(1, 1) translate3d(0, 0, 0) rotate(0deg);
+  }
+  20% {
+    transform: scale(1.09, 0.92) translate3d(0, 4px, 0) rotate(-3deg);
+  }
+  48% {
+    transform: scale(0.96, 1.07) translate3d(0, -14px, 0) rotate(4deg);
+  }
+  72% {
+    transform: scale(1.03, 0.98) translate3d(0, 2px, 0) rotate(-2deg);
+  }
+  100% {
+    transform: scale(1, 1) translate3d(0, 0, 0) rotate(0deg);
+  }
+}
+
+.animate-mascot-sparkle {
+  animation: mascotSparkleFly var(--sdur, 780ms) cubic-bezier(0.16, 1, 0.3, 1) var(--sdelay, 0ms) forwards;
+}
+
+.animate-mascot-twinkle {
+  animation: mascotStarTwinkle 760ms ease-out var(--sdelay, 0ms) forwards;
+}
+
+.animate-mascot-ring {
+  animation: mascotRingWave 720ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-mascot-aura {
+  animation: mascotAuraFlash 700ms ease-out forwards;
+}
+
+.animate-mascot-jump {
+  animation: mascotPopJump 560ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.animate-pulse-glow {
+  animation: pulseScale 2.4s ease-in-out infinite;
+}
+
+.animate-dash-flow {
+  animation: dashFlow 1.4s linear infinite;
+}
+
+.animate-cloud-slow {
+  animation: cloudDrift 52s linear infinite;
+}
+
+.animate-cloud-slower {
+  animation: cloudDrift 74s linear infinite;
+}
+
+.animate-butterfly-slow {
+  animation: butterflyGlide 36s linear infinite;
+}
+
+@keyframes titleHoverShine {
+  0% {
+    transform: translate3d(-140%, 0, 0) skewX(-24deg);
+    opacity: 0;
+  }
+  12% {
+    opacity: 0.95;
+  }
+  88% {
+    opacity: 0.95;
+  }
+  100% {
+    transform: translate3d(340%, 0, 0) skewX(-24deg);
+    opacity: 0;
+  }
+}
+
+.animate-title-shine {
+  animation: titleHoverShine 760ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Live2D Articulated Tug-of-War Character Keyframes */
+@keyframes live2dIdleBreathe {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) scaleY(1);
+  }
+  50% {
+    transform: translate3d(0, -1.8px, 0) scaleY(1.015);
+  }
+}
+
+@keyframes live2dEyeBlink {
+  0%, 91%, 100% {
+    transform: scaleY(1);
+  }
+  95% {
+    transform: scaleY(0.08);
+  }
+}
+
+@keyframes live2dPullLeft {
+  0%, 100% {
+    transform: rotate(-7deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: rotate(-14deg) translate3d(-4px, 1px, 0);
+  }
+}
+
+@keyframes live2dPullRight {
+  0%, 100% {
+    transform: rotate(7deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: rotate(14deg) translate3d(4px, 1px, 0);
+  }
+}
+
+@keyframes live2dDraggedRight {
+  0%, 100% {
+    transform: rotate(6deg) translate3d(0, 0, 0);
+  }
+  25% {
+    transform: rotate(11deg) translate3d(3px, -1px, 0);
+  }
+  50% {
+    transform: rotate(7deg) translate3d(1px, 1px, 0);
+  }
+  75% {
+    transform: rotate(12deg) translate3d(4px, -1px, 0);
+  }
+}
+
+@keyframes live2dDraggedLeft {
+  0%, 100% {
+    transform: rotate(-6deg) translate3d(0, 0, 0);
+  }
+  25% {
+    transform: rotate(-11deg) translate3d(-3px, -1px, 0);
+  }
+  50% {
+    transform: rotate(-7deg) translate3d(-1px, 1px, 0);
+  }
+  75% {
+    transform: rotate(-12deg) translate3d(-4px, -1px, 0);
+  }
+}
+
+@keyframes live2dHeadFollow {
+  0%, 100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: rotate(-3deg) translate3d(0, 1.5px, 0);
+  }
+}
+
+@keyframes live2dPupilTremble {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+  25% {
+    transform: translate3d(-1.4px, -0.8px, 0);
+  }
+  50% {
+    transform: translate3d(1.4px, 0.8px, 0);
+  }
+  75% {
+    transform: translate3d(-1px, 1px, 0);
+  }
+}
+
+@keyframes live2dWinJump {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) scale(1, 1);
+  }
+  20% {
+    transform: translate3d(0, 3px, 0) scale(1.06, 0.92);
+  }
+  50% {
+    transform: translate3d(0, -16px, 0) scale(0.95, 1.06);
+  }
+  78% {
+    transform: translate3d(0, 2px, 0) scale(1.04, 0.95);
+  }
+}
+
+@keyframes live2dLoseSlump {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(0, 2.5px, 0) rotate(2deg);
+  }
+}
+
+@keyframes live2dRopeVibe {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -1.2px, 0);
+  }
+}
+
+.live2d-idle {
+  animation: live2dIdleBreathe 2.6s ease-in-out infinite;
+}
+
+.live2d-blink {
+  animation: live2dEyeBlink 3.8s ease-in-out infinite;
+}
+
+.live2d-pull-left {
+  animation: live2dPullLeft 0.56s ease-in-out infinite;
+}
+
+.live2d-pull-right {
+  animation: live2dPullRight 0.56s ease-in-out infinite;
+}
+
+.live2d-dragged-right {
+  animation: live2dDraggedRight 0.42s ease-in-out infinite;
+}
+
+.live2d-dragged-left {
+  animation: live2dDraggedLeft 0.42s ease-in-out infinite;
+}
+
+.live2d-head-bob {
+  animation: live2dHeadFollow 0.56s ease-in-out infinite;
+}
+
+.live2d-pupil-tremble {
+  animation: live2dPupilTremble 0.18s linear infinite;
+}
+
+.live2d-win-jump {
+  animation: live2dWinJump 0.72s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+}
+
+.live2d-lose-slump {
+  animation: live2dLoseSlump 2.1s ease-in-out infinite;
+}
+
+.live2d-rope-vibe {
+  animation: live2dRopeVibe 0.22s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-bounce-short,
+  .animate-float-slow,
+  .animate-mascot-sparkle,
+  .animate-mascot-twinkle,
+  .animate-mascot-ring,
+  .animate-mascot-aura,
+  .animate-mascot-jump,
+  .animate-pulse-glow,
+  .animate-dash-flow,
+  .animate-cloud-slow,
+  .animate-cloud-slower,
+  .animate-butterfly-slow,
+  .animate-title-shine,
+  .live2d-idle,
+  .live2d-blink,
+  .live2d-pull-left,
+  .live2d-pull-right,
+  .live2d-dragged-right,
+  .live2d-dragged-left,
+  .live2d-head-bob,
+  .live2d-pupil-tremble,
+  .live2d-win-jump,
+  .live2d-lose-slump,
+  .live2d-rope-vibe {
+    animation: none !important;
+  }
+}
