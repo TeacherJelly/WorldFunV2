@@ -5,8 +5,8 @@
 # ====================================================================
 @VERSION: 5.0
 @APP: Word Fun!: Kiddy Vocabulary Connect
-@SAVED_AT: 2026-11-26T12:03:42.519Z
-@FOLDER_COUNT: 2
+@SAVED_AT: 2026-11-26T12:17:44.065Z
+@FOLDER_COUNT: 3
 @ITEM_COUNT: 6
 
 [SETTINGS]
@@ -29,6 +29,12 @@ githubSync = {"repo":"TeacherJelly/WorldFunV2","branch":"main","filePath":"wordf
 
 [FOLDERS]
 # Each [FOLDER] block stores a vocabulary folder.
+
+[FOLDER]
+id = folder-1795695462560-ot8f
+name = New Folder
+createdAt = 2026-11-26T12:17:42.560Z
+updatedAt = 2026-11-26T12:17:42.560Z
 
 [FOLDER]
 id = folder-1795694572943-gqcg
