@@ -5,9 +5,9 @@
 # ====================================================================
 @VERSION: 5.0
 @APP: Word Fun!: Kiddy Vocabulary Connect
-@SAVED_AT: 2026-11-26T10:49:58.096Z
-@FOLDER_COUNT: 5
-@ITEM_COUNT: 282
+@SAVED_AT: 2026-11-26T10:50:01.001Z
+@FOLDER_COUNT: 4
+@ITEM_COUNT: 160
 
 [SETTINGS]
 gameMode = spelling
@@ -60,14 +60,6 @@ name = Space & Travel
 description = Rockets, stars, planets, trains, airplanes, and journeys.
 createdAt = 2026-01-01T08:15:00.000Z
 updatedAt = 2026-01-01T08:15:00.000Z
-isStarter = true
-
-[FOLDER]
-id = folder-starter-school
-name = School, Arts & Fun
-description = Books, music, toys, games, friends, and everyday stories.
-createdAt = 2026-01-01T08:20:00.000Z
-updatedAt = 2026-01-01T08:20:00.000Z
 isStarter = true
 
 [VOCABULARY]
@@ -164,15 +156,6 @@ hint = Swimming happily in clear water!
 imagePreset = fish
 
 [ITEM]
-id = s-g1-s2-u1-2
-folderId = folder-starter-school
-mode = sentence
-category = Vocabulary Fun
-text = Fluffy white sheep
-hint = Grazing softly on green grass!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%230EA5E9%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EF%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
 id = s-g1-s2-u1-3
 folderId = folder-starter-food
 mode = sentence
@@ -245,15 +228,6 @@ hint = Bouncing high in the yard!
 imagePreset = apple
 
 [ITEM]
-id = s-g1-s2-u4-2
-folderId = folder-starter-school
-mode = sentence
-category = School & Home
-text = Fun picture book
-hint = Full of colorful bedtime tales!
-imagePreset = book
-
-[ITEM]
 id = s-g1-s2-u4-3
 folderId = folder-starter-space
 mode = sentence
@@ -261,15 +235,6 @@ category = Vehicles & Space
 text = Fast blue car
 hint = Rolling smoothly down the road!
 imagePreset = train
-
-[ITEM]
-id = s-g2-s1-u1-1
-folderId = folder-starter-school
-mode = sentence
-category = Toys & Music
-text = The puppy plays ball
-hint = A playful little dog outside!
-imagePreset = ball
 
 [ITEM]
 id = s-g2-s1-u1-2
@@ -317,15 +282,6 @@ hint = Giving cool shade in the park!
 imagePreset = tree
 
 [ITEM]
-id = s-g2-s1-u3-1
-folderId = folder-starter-school
-mode = sentence
-category = Toys & Music
-text = Happy kids sing songs
-hint = Making joyful music together!
-imagePreset = music
-
-[ITEM]
 id = s-g2-s1-u3-2
 folderId = folder-starter-food
 mode = sentence
@@ -369,24 +325,6 @@ category = Food & Treats
 text = Warm honey cake smells
 hint = Baked fresh in the kitchen!
 imagePreset = cake
-
-[ITEM]
-id = s-g2-s2-u1-1
-folderId = folder-starter-school
-mode = sentence
-category = Vocabulary Fun
-text = Squirrels gather brown acorns
-hint = Climbing nimble branches in autumn!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F43F5E%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ES%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = s-g2-s2-u1-2
-folderId = folder-starter-school
-mode = sentence
-category = Vocabulary Fun
-text = Wise owls hoot softly
-hint = Resting quietly on forest trees!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EW%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
 
 [ITEM]
 id = s-g2-s2-u1-3
@@ -533,15 +471,6 @@ hint = Sparkling across the dark sky!
 imagePreset = star
 
 [ITEM]
-id = s-g3-s1-u3-1
-folderId = folder-starter-school
-mode = sentence
-category = School & Home
-text = Young students read story books
-hint = Discovering fun adventures in class!
-imagePreset = book
-
-[ITEM]
 id = s-g3-s1-u3-2
 folderId = folder-starter-nature
 mode = sentence
@@ -549,15 +478,6 @@ category = Nature & Sky
 text = Happy friends draw bright pictures
 hint = Using crayons and paper together!
 imagePreset = sun
-
-[ITEM]
-id = s-g3-s1-u3-3
-folderId = folder-starter-school
-mode = sentence
-category = Toys & Music
-text = Kind children play joyful music
-hint = Sharing instruments in harmony!
-imagePreset = music
 
 [ITEM]
 id = s-g3-s1-u4-1
@@ -569,15 +489,6 @@ hint = Fluttering softly from petal to petal!
 imagePreset = flower
 
 [ITEM]
-id = s-g3-s1-u4-2
-folderId = folder-starter-school
-mode = sentence
-category = Vocabulary Fun
-text = Friendly bees buzz near blossoms
-hint = Collecting sweet nectar in sunshine!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23EC4899%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EF%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
 id = s-g3-s1-u4-3
 folderId = folder-starter-animals
 mode = sentence
@@ -585,24 +496,6 @@ category = Animals
 text = Fresh raindrops water green gardens
 hint = Helping colorful plants grow strong!
 imagePreset = fish
-
-[ITEM]
-id = s-g3-s2-u1-1
-folderId = folder-starter-school
-mode = sentence
-category = Toys & Music
-text = Playful dolphins leap over waves
-hint = Splashing cheerfully in blue ocean water!
-imagePreset = ball
-
-[ITEM]
-id = s-g3-s2-u1-2
-folderId = folder-starter-school
-mode = sentence
-category = Vocabulary Fun
-text = Little crabs walk on sand
-hint = Scuttling sideways near the tide!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EL%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
 
 [ITEM]
 id = s-g3-s2-u1-3
@@ -650,15 +543,6 @@ hint = Mixing blue and yellow on palettes!
 imagePreset = sun
 
 [ITEM]
-id = s-g3-s2-u3-2
-folderId = folder-starter-school
-mode = sentence
-category = School & Home
-text = Quiet readers explore library shelves
-hint = Finding exciting animal tales today!
-imagePreset = book
-
-[ITEM]
 id = s-g3-s2-u3-3
 folderId = folder-starter-animals
 mode = sentence
@@ -677,15 +561,6 @@ hint = Filling wooden baskets every autumn!
 imagePreset = apple
 
 [ITEM]
-id = s-g3-s2-u4-2
-folderId = folder-starter-school
-mode = sentence
-category = Vocabulary Fun
-text = Ripe orange pumpkins grow big
-hint = Resting on sunny garden vines!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F43F5E%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ER%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
 id = s-g3-s2-u4-3
 folderId = folder-starter-food
 mode = sentence
@@ -702,24 +577,6 @@ category = Animals
 text = The gentle giant elephant sprays water
 hint = Cooling off with its long trunk!
 imagePreset = elephant
-
-[ITEM]
-id = s-g4-s1-u1-2
-folderId = folder-starter-school
-mode = sentence
-category = Vocabulary Fun
-text = Clever dolphins leap above blue waves
-hint = Playful ocean swimmers jumping high!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EC%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = s-g4-s1-u1-3
-folderId = folder-starter-school
-mode = sentence
-category = Toys & Music
-text = Hungry puppies chase bouncing yellow balls
-hint = Running joyfully across the green lawn!
-imagePreset = ball
 
 [ITEM]
 id = s-g4-s1-u2-1
@@ -821,15 +678,6 @@ hint = Diving swiftly into cold ocean water!
 imagePreset = bird
 
 [ITEM]
-id = s-g4-s2-u1-3
-folderId = folder-starter-school
-mode = sentence
-category = Vocabulary Fun
-text = Swift cheetahs sprint across wide grasslands
-hint = Running faster than any wild cat!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23EC4899%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ES%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
 id = s-g4-s2-u2-1
 folderId = folder-starter-space
 mode = sentence
@@ -846,15 +694,6 @@ category = Nature & Sky
 text = Wooden sailboats cross sparkling blue bays
 hint = Catching steady breezes in white sails!
 imagePreset = flower
-
-[ITEM]
-id = s-g4-s2-u2-3
-folderId = folder-starter-school
-mode = sentence
-category = Vocabulary Fun
-text = Curious explorers sketch mountains in journals
-hint = Drawing maps of new valleys!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%238B5CF6%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EC%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
 
 [ITEM]
 id = s-g4-s2-u3-1
@@ -965,15 +804,6 @@ hint = Looking closely at the night sky!
 imagePreset = rocket
 
 [ITEM]
-id = s-g5-s1-u3-1
-folderId = folder-starter-school
-mode = sentence
-category = Toys & Music
-text = Talented young musicians play cheerful melodies together daily
-hint = Practicing rhythms and songs as a band!
-imagePreset = ball
-
-[ITEM]
 id = s-g5-s1-u3-2
 folderId = folder-starter-nature
 mode = sentence
@@ -981,15 +811,6 @@ category = Nature & Sky
 text = Creative students paint colorful rainbows on big paper
 hint = Mixing bright shades during art class!
 imagePreset = rainbow
-
-[ITEM]
-id = s-g5-s1-u3-3
-folderId = folder-starter-school
-mode = sentence
-category = School & Home
-text = Eager readers discover magical worlds in story books
-hint = Exploring exciting chapters every afternoon!
-imagePreset = book
 
 [ITEM]
 id = s-g5-s1-u4-1
@@ -1073,33 +894,6 @@ hint = Revealing red, orange, yellow, green, and blue!
 imagePreset = rainbow
 
 [ITEM]
-id = s-g5-s2-u3-1
-folderId = folder-starter-school
-mode = sentence
-category = Toys & Music
-text = Confident actors rehearse lively plays on wooden stages
-hint = Practicing expressive voices before opening night!
-imagePreset = ball
-
-[ITEM]
-id = s-g5-s2-u3-2
-folderId = folder-starter-school
-mode = sentence
-category = Vocabulary Fun
-text = Wooden violins produce rich melodies in quiet concert halls
-hint = Blending strings with soft piano notes!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F43F5E%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EW%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = s-g5-s2-u3-3
-folderId = folder-starter-school
-mode = sentence
-category = School & Home
-text = Young illustrators sketch expressive characters inside thick notebooks
-hint = Bringing imaginative stories to life!
-imagePreset = book
-
-[ITEM]
 id = s-g5-s2-u4-1
 folderId = folder-starter-nature
 mode = sentence
@@ -1154,15 +948,6 @@ hint = Swimming gracefully through coral reefs!
 imagePreset = fish
 
 [ITEM]
-id = s-g6-s1-u2-1
-folderId = folder-starter-school
-mode = sentence
-category = Vocabulary Fun
-text = Curious young inventors design clever machines to solve problems
-hint = Building helpful ideas step by step!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%238B5CF6%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EC%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
 id = s-g6-s1-u2-2
 folderId = folder-starter-space
 mode = sentence
@@ -1181,15 +966,6 @@ hint = Soaring swiftly above fluffy white clouds!
 imagePreset = airplane
 
 [ITEM]
-id = s-g6-s1-u3-1
-folderId = folder-starter-school
-mode = sentence
-category = School & Home
-text = Happy children read inspiring story books together at school
-hint = Learning new vocabulary and sharing ideas!
-imagePreset = book
-
-[ITEM]
 id = s-g6-s1-u3-2
 folderId = folder-starter-nature
 mode = sentence
@@ -1197,15 +973,6 @@ category = Nature & Sky
 text = Joyful community musicians perform lively concerts under twinkling stars
 hint = Filling warm evenings with bright melodies!
 imagePreset = star
-
-[ITEM]
-id = s-g6-s1-u3-3
-folderId = folder-starter-school
-mode = sentence
-category = Adventure
-text = Thoughtful young writers craft exciting tales about hidden treasure
-hint = Using imagination to build vivid scenes!
-imagePreset = treasure
 
 [ITEM]
 id = s-g6-s1-u4-1
@@ -1271,15 +1038,6 @@ hint = Turning natural daylight into helpful electricity!
 imagePreset = sun
 
 [ITEM]
-id = s-g6-s2-u2-2
-folderId = folder-starter-school
-mode = sentence
-category = Vocabulary Fun
-text = Student engineers program tiny robots to navigate tricky mazes
-hint = Testing sensors and code with teamwork!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23EC4899%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ES%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
 id = s-g6-s2-u2-3
 folderId = folder-starter-space
 mode = sentence
@@ -1296,15 +1054,6 @@ category = Nature & Sky
 text = Colorful paper lanterns glow warmly during joyful town festivals
 hint = Celebrating heritage with family music and food!
 imagePreset = rainbow
-
-[ITEM]
-id = s-g6-s2-u3-2
-folderId = folder-starter-school
-mode = sentence
-category = Vocabulary Fun
-text = Museum curators preserve ancient pottery and woven heritage textiles
-hint = Sharing history with curious young visitors!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23EC4899%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EM%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
 
 [ITEM]
 id = s-g6-s2-u3-3
@@ -1332,15 +1081,6 @@ category = Nature & Sky
 text = Helpful community gardens supply fresh vegetables to local neighbors
 hint = Growing tomatoes and herbs together outdoors!
 imagePreset = flower
-
-[ITEM]
-id = s-g6-s2-u4-3
-folderId = folder-starter-school
-mode = sentence
-category = Vocabulary Fun
-text = Every small act of kindness builds stronger happier neighborhoods
-hint = Making schools and parks welcoming places!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F43F5E%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EE%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
 
 [ITEM]
 id = sp-g1-s1-u2-1
@@ -1388,42 +1128,6 @@ hint = A healthy white drink in a glass!
 imagePreset = milk
 
 [ITEM]
-id = sp-g1-s1-u3-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = PEAR
-hint = A sweet green fruit shaped like a bell!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%238B5CF6%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EP%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g1-s1-u4-1
-folderId = folder-starter-school
-mode = spelling
-category = School & Home
-text = BOOK
-hint = Pages filled with fun stories to read!
-imagePreset = book
-
-[ITEM]
-id = sp-g1-s1-u4-2
-folderId = folder-starter-school
-mode = spelling
-category = Toys & Music
-text = BALL
-hint = Round toy that bounces and rolls!
-imagePreset = ball
-
-[ITEM]
-id = sp-g1-s1-u4-3
-folderId = folder-starter-school
-mode = spelling
-category = School & Home
-text = HOME
-hint = A cozy place where your family lives!
-imagePreset = house
-
-[ITEM]
 id = sp-g1-s2-u1-1
 folderId = folder-starter-animals
 mode = spelling
@@ -1431,24 +1135,6 @@ category = Animals
 text = DUCK
 hint = Swims on the pond and says quack!
 imagePreset = bird
-
-[ITEM]
-id = sp-g1-s2-u1-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = BEE
-hint = Small buzzing insect that makes honey!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EB%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g1-s2-u1-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = FOX
-hint = Red forest animal with a fluffy tail!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EF%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
 
 [ITEM]
 id = sp-g1-s2-u2-1
@@ -1467,60 +1153,6 @@ category = Nature & Sky
 text = LEAF
 hint = Green part growing on a tree branch!
 imagePreset = tree
-
-[ITEM]
-id = sp-g1-s2-u2-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = BLUE
-hint = Color of a clear sunny sky!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%238B5CF6%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EB%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g1-s2-u3-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = CORN
-hint = Sweet yellow kernels on a cob!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%238B5CF6%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EC%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g1-s2-u3-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = PLUM
-hint = Sweet juicy purple orchard fruit!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%238B5CF6%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EP%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g1-s2-u3-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = SOUP
-hint = Warm yummy meal served in a bowl!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%238B5CF6%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ES%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g1-s2-u4-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = KITE
-hint = Flies high in the wind on a string!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%238B5CF6%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EK%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g1-s2-u4-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = DOLL
-hint = Friendly toy buddy for pretend play!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%238B5CF6%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ED%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
 
 [ITEM]
 id = sp-g1-s2-u4-3
@@ -1586,15 +1218,6 @@ hint = Glows softly in the night sky!
 imagePreset = star
 
 [ITEM]
-id = sp-g2-s1-u3-1
-folderId = folder-starter-school
-mode = spelling
-category = Toys & Music
-text = MUSIC
-hint = Happy sounds and songs we dance to!
-imagePreset = music
-
-[ITEM]
 id = sp-g2-s1-u3-2
 folderId = folder-starter-space
 mode = spelling
@@ -1604,15 +1227,6 @@ hint = Choo-choo! Travels along iron tracks!
 imagePreset = train
 
 [ITEM]
-id = sp-g2-s1-u3-3
-folderId = folder-starter-school
-mode = spelling
-category = School & Home
-text = HOUSE
-hint = A cozy home with windows and a roof!
-imagePreset = house
-
-[ITEM]
 id = sp-g2-s1-u4-1
 folderId = folder-starter-food
 mode = spelling
@@ -1620,24 +1234,6 @@ category = Food & Treats
 text = APPLE
 hint = A crunchy red fruit you can eat!
 imagePreset = apple
-
-[ITEM]
-id = sp-g2-s1-u4-2
-folderId = folder-starter-school
-mode = spelling
-category = School & Home
-text = BREAD
-hint = Warm baked loaf used for sandwiches!
-imagePreset = book
-
-[ITEM]
-id = sp-g2-s1-u4-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = GRAPE
-hint = Small juicy purple fruit growing in bunches!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F43F5E%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EG%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
 
 [ITEM]
 id = sp-g2-s2-u1-1
@@ -1658,15 +1254,6 @@ hint = Furry forest animal who loves berries!
 imagePreset = bear
 
 [ITEM]
-id = sp-g2-s2-u1-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = DEER
-hint = Gentle woodland animal that leaps swiftly!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%238B5CF6%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ED%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
 id = sp-g2-s2-u2-1
 folderId = folder-starter-nature
 mode = spelling
@@ -1676,33 +1263,6 @@ hint = Heavy rain clouds with booming wind!
 imagePreset = cloud
 
 [ITEM]
-id = sp-g2-s2-u2-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = SNOW
-hint = Soft cold white flakes in winter!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%238B5CF6%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ES%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g2-s2-u2-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = GRASS
-hint = Green blades covering sunny parks!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F43F5E%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EG%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g2-s2-u3-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = BIKE
-hint = Two wheels you pedal with your feet!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%238B5CF6%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EB%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
 id = sp-g2-s2-u3-2
 folderId = folder-starter-space
 mode = spelling
@@ -1710,42 +1270,6 @@ category = Vehicles & Space
 text = TRUCK
 hint = Sturdy vehicle carrying heavy loads!
 imagePreset = train
-
-[ITEM]
-id = sp-g2-s2-u3-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = BOAT
-hint = Floats smoothly across lakes and rivers!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%238B5CF6%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EB%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g2-s2-u4-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = HONEY
-hint = Sweet golden treat made by bees!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F43F5E%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EH%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g2-s2-u4-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = PEACH
-hint = Fuzzy sweet summer fruit with a pit!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F43F5E%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EP%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g2-s2-u4-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = BERRY
-hint = Tiny sweet red or blue garden fruit!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F43F5E%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EB%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
 
 [ITEM]
 id = sp-g3-s1-u1-1
@@ -1802,33 +1326,6 @@ hint = Full of cheerful shining light!
 imagePreset = sun
 
 [ITEM]
-id = sp-g3-s1-u3-1
-folderId = folder-starter-school
-mode = spelling
-category = School & Home
-text = SCHOOL
-hint = A place where kids learn and read together!
-imagePreset = book
-
-[ITEM]
-id = sp-g3-s1-u3-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = FRIEND
-hint = Someone kind you love playing with!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%230EA5E9%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EF%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g3-s1-u3-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = PENCIL
-hint = Tool used to write and draw pictures!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%230EA5E9%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EP%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
 id = sp-g3-s1-u4-1
 folderId = folder-starter-nature
 mode = spelling
@@ -1856,24 +1353,6 @@ hint = Sunny yard filled with blooms and plants!
 imagePreset = flower
 
 [ITEM]
-id = sp-g3-s2-u1-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = WHALE
-hint = Giant gentle ocean mammal that sings!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F43F5E%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EW%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g3-s2-u1-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = CORAL
-hint = Colorful reef home beneath warm waves!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F43F5E%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EC%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
 id = sp-g3-s2-u1-3
 folderId = folder-starter-animals
 mode = spelling
@@ -1881,78 +1360,6 @@ category = Animals
 text = SHELL
 hint = Pretty spiral treasure found on sandy beaches!
 imagePreset = turtle
-
-[ITEM]
-id = sp-g3-s2-u2-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = COMET
-hint = Icy space traveler with a glowing tail!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F43F5E%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EC%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g3-s2-u2-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = ORBIT
-hint = Curved path around a sun or planet!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F43F5E%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EO%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g3-s2-u2-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = GALAXY
-hint = Vast family of billions of stars!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%230EA5E9%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EG%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g3-s2-u3-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = CRAYON
-hint = Colorful wax stick for drawing fun art!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%230EA5E9%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EC%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g3-s2-u3-2
-folderId = folder-starter-school
-mode = spelling
-category = School & Home
-text = STORY
-hint = An exciting tale with heroes and adventures!
-imagePreset = book
-
-[ITEM]
-id = sp-g3-s2-u3-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = ARTIST
-hint = Someone who paints, draws, or sculpts!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%230EA5E9%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EA%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g3-s2-u4-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = ORANGE
-hint = Sweet juicy citrus fruit full of sunshine!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%230EA5E9%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EO%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g3-s2-u4-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = MARKET
-hint = Lively stalls selling fresh fruit and bread!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%230EA5E9%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EM%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
 
 [ITEM]
 id = sp-g3-s2-u4-3
@@ -1964,15 +1371,6 @@ hint = Crunchy orange root veggie bunnies adore!
 imagePreset = rabbit
 
 [ITEM]
-id = sp-g4-s1-u1-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = DOLPHIN
-hint = Smart ocean swimmer that leaps playfully!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ED%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
 id = sp-g4-s1-u1-2
 folderId = folder-starter-animals
 mode = spelling
@@ -1982,15 +1380,6 @@ hint = Black-and-white bird that loves icy water!
 imagePreset = bird
 
 [ITEM]
-id = sp-g4-s1-u1-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = GIRAFFE
-hint = Tall spotted animal with a very long neck!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EG%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
 id = sp-g4-s1-u2-1
 folderId = folder-starter-space
 mode = spelling
@@ -1998,24 +1387,6 @@ category = Vehicles & Space
 text = AIRPLANE
 hint = Flies high through the clouds with wings!
 imagePreset = airplane
-
-[ITEM]
-id = sp-g4-s1-u2-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = JOURNEY
-hint = An exciting trip from one place to another!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EJ%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g4-s1-u2-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = COMPASS
-hint = Shows north, south, east, and west!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EC%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
 
 [ITEM]
 id = sp-g4-s1-u3-1
@@ -2045,24 +1416,6 @@ hint = Early part of the day when sun rises!
 imagePreset = sun
 
 [ITEM]
-id = sp-g4-s1-u4-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = PUMPKIN
-hint = Round bright orange fruit of autumn!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EP%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g4-s1-u4-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = HARVEST
-hint = Gathering ripe crops and fresh fruit!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EH%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
 id = sp-g4-s1-u4-3
 folderId = folder-starter-food
 mode = spelling
@@ -2072,78 +1425,6 @@ hint = A grove of trees growing delicious fruit!
 imagePreset = apple
 
 [ITEM]
-id = sp-g4-s2-u1-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = CHEETAH
-hint = Fastest spotted runner on sunny grasslands!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EC%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g4-s2-u1-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = WALRUS
-hint = Arctic sea mammal with long ivory tusks!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%230EA5E9%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EW%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g4-s2-u1-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = MEERKAT
-hint = Curious desert animal standing upright on lookout!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EM%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g4-s2-u2-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = HORIZON
-hint = Where the distant land or ocean meets sky!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EH%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g4-s2-u2-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = VOYAGE
-hint = A long exciting trip across blue seas!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%230EA5E9%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EV%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g4-s2-u2-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = ISLAND
-hint = Piece of sunny land surrounded by water!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%230EA5E9%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g4-s2-u3-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = THUNDER
-hint = Deep rumbling sound inside storm clouds!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ET%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g4-s2-u3-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = BREEZE
-hint = Gentle refreshing wind on a warm day!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%230EA5E9%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EB%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
 id = sp-g4-s2-u3-3
 folderId = folder-starter-nature
 mode = spelling
@@ -2151,33 +1432,6 @@ category = Nature & Sky
 text = SUNRISE
 hint = Warm golden glow starting the morning!
 imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ES%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g4-s2-u4-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = KITCHEN
-hint = Cozy room where tasty meals are cooked!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EK%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g4-s2-u4-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = MUFFIN
-hint = Soft little baked cake with sweet berries!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%230EA5E9%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EM%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g4-s2-u4-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = APRICOT
-hint = Velvety golden-orange summer stone fruit!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EA%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
 
 [ITEM]
 id = sp-g5-s1-u1-1
@@ -2198,24 +1452,6 @@ hint = Huge gray animal with a long trunk!
 imagePreset = elephant
 
 [ITEM]
-id = sp-g5-s1-u1-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = SQUIRREL
-hint = Fluffy-tailed climber gathering acorns!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23EC4899%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ES%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g5-s1-u2-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = UNIVERSE
-hint = All of space, stars, and galaxies!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23EC4899%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EU%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
 id = sp-g5-s1-u2-2
 folderId = folder-starter-nature
 mode = spelling
@@ -2223,60 +1459,6 @@ category = Nature & Sky
 text = SUNLIGHT
 hint = Warm golden rays shining down from the sun!
 imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23EC4899%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ES%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g5-s1-u2-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = ECLIPSE
-hint = When the moon passes in front of the sun!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EE%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g5-s1-u3-1
-folderId = folder-starter-school
-mode = spelling
-category = Adventure
-text = TREASURE
-hint = Shiny golden crown and sparkly jewels!
-imagePreset = treasure
-
-[ITEM]
-id = sp-g5-s1-u3-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = PAINTING
-hint = Colorful artwork created with brushes!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23EC4899%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EP%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g5-s1-u3-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = MELODIES
-hint = Sweet musical tunes played on instruments!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23EC4899%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EM%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g5-s1-u4-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = AVOCADO
-hint = Creamy green fruit with a big round seed!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EA%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g5-s1-u4-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = VITAMIN
-hint = Healthy nutrients found in fruits and veggies!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EV%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
 
 [ITEM]
 id = sp-g5-s1-u4-3
@@ -2288,60 +1470,6 @@ hint = Warm bright rays filling a happy day!
 imagePreset = sun
 
 [ITEM]
-id = sp-g5-s2-u1-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = FOSSILS
-hint = Ancient prints of leaves and bones inside rock!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EF%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g5-s2-u1-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = HABITAT
-hint = Natural home where plants and animals live!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EH%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g5-s2-u1-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = PREDATOR
-hint = Wild animal that hunts in nature!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23EC4899%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EP%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g5-s2-u2-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = SPECTRUM
-hint = Band of rainbow colors split by light!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23EC4899%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ES%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g5-s2-u2-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = GRAVITY
-hint = Gentle force keeping planets in orbit!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EG%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g5-s2-u2-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = METEORS
-hint = Bright shooting stars streaking through night sky!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EM%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
 id = sp-g5-s2-u3-1
 folderId = folder-starter-food
 mode = spelling
@@ -2349,51 +1477,6 @@ category = Food & Treats
 text = THEATER
 hint = Stage where actors perform exciting plays!
 imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ET%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g5-s2-u3-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = CONCERT
-hint = Live musical show performed for listeners!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EC%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g5-s2-u3-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = SCULPTOR
-hint = Artist shaping clay or stone into statues!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23EC4899%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ES%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g5-s2-u4-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = SPINACH
-hint = Leafy green vegetable packed with iron!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ES%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g5-s2-u4-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = SMOOTHIE
-hint = Cool blended fruit drink full of energy!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23EC4899%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ES%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g5-s2-u4-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = PROTEIN
-hint = Helpful nutrient that builds strong muscles!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EP%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
 
 [ITEM]
 id = sp-g6-s1-u1-1
@@ -2405,78 +1488,6 @@ hint = Insect with colorful fluttering wings!
 imagePreset = butterfly
 
 [ITEM]
-id = sp-g6-s1-u1-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = ECOSYSTEM
-hint = Living plants and animals sharing a habitat!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EE%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g6-s1-u1-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = CHAMELEON
-hint = Clever lizard able to change its colors!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EC%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g6-s1-u2-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = INVENTION
-hint = A brand-new helpful device or creation!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g6-s1-u2-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = DISCOVERY
-hint = Finding or learning something amazing for the first time!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ED%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g6-s1-u2-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = TELESCOPE
-hint = Instrument used to see distant stars and planets!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ET%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g6-s1-u3-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = ADVENTURE
-hint = An exciting journey full of surprises!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EA%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g6-s1-u3-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = KNOWLEDGE
-hint = Wisdom and understanding gained by learning!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EK%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g6-s1-u3-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = CELEBRATE
-hint = Having a joyful party for a special event!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EC%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
 id = sp-g6-s1-u4-1
 folderId = folder-starter-food
 mode = spelling
@@ -2486,33 +1497,6 @@ hint = Big green summer fruit, sweet red inside!
 imagePreset = watermelon
 
 [ITEM]
-id = sp-g6-s1-u4-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = MOUNTAINS
-hint = Tall rocky peaks reaching up into clouds!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EM%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g6-s1-u4-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = COMMUNITY
-hint = Neighbors and friends living and helping together!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EC%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g6-s2-u1-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = MIGRATION
-hint = Seasonal long journey of birds or butterflies!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EM%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
 id = sp-g6-s2-u1-2
 folderId = folder-starter-animals
 mode = spelling
@@ -2520,93 +1504,3 @@ category = Animals
 text = RAINFOREST
 hint = Lush tropical woods rich with wildlife!
 imagePreset = bear
-
-[ITEM]
-id = sp-g6-s2-u1-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = SANCTUARY
-hint = Safe protected haven for wild creatures!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ES%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g6-s2-u2-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = SATELLITE
-hint = Spacecraft orbiting Earth to send signals!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ES%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g6-s2-u2-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = ROBOTICS
-hint = Designing and coding helpful smart machines!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23EC4899%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ER%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g6-s2-u2-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = ALGORITHM
-hint = Clear step-by-step recipe to solve a puzzle!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EA%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g6-s2-u3-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = FESTIVALS
-hint = Joyful cultural gatherings with music and lights!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EF%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g6-s2-u3-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = HERITAGE
-hint = Valued traditions passed down across generations!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23EC4899%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EH%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g6-s2-u3-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = TRADITION
-hint = Special custom shared by families every year!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ET%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g6-s2-u4-1
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = LANDSCAPE
-hint = Wide scenic view of hills, rivers, and valleys!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EL%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g6-s2-u4-2
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = VOLUNTEER
-hint = Someone generously helping neighbors and nature!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%2310B981%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EV%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
-id = sp-g6-s2-u4-3
-folderId = folder-starter-school
-mode = spelling
-category = Vocabulary Fun
-text = HARMONIOUS
-hint = Working and living peacefully together!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%238B5CF6%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EH%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
