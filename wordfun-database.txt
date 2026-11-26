@@ -5,9 +5,9 @@
 # ====================================================================
 @VERSION: 5.0
 @APP: Word Fun!: Kiddy Vocabulary Connect
-@SAVED_AT: 2026-11-26T10:50:03.616Z
-@FOLDER_COUNT: 3
-@ITEM_COUNT: 143
+@SAVED_AT: 2026-11-26T10:50:05.768Z
+@FOLDER_COUNT: 2
+@ITEM_COUNT: 111
 
 [SETTINGS]
 gameMode = spelling
@@ -46,14 +46,6 @@ createdAt = 2026-01-01T08:05:00.000Z
 updatedAt = 2026-01-01T08:05:00.000Z
 isStarter = true
 
-[FOLDER]
-id = folder-starter-food
-name = Food & Treats
-description = Fruits, bakery snacks, veggies, drinks, and yummy treats.
-createdAt = 2026-01-01T08:10:00.000Z
-updatedAt = 2026-01-01T08:10:00.000Z
-isStarter = true
-
 [VOCABULARY]
 # Each [ITEM] block represents one sentence or spelling word.
 
@@ -85,42 +77,6 @@ hint = Chirping sweetly on a branch!
 imagePreset = bird
 
 [ITEM]
-id = s-g1-s1-u3-1
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Sweet red apple
-hint = A crunchy fruit to eat!
-imagePreset = apple
-
-[ITEM]
-id = s-g1-s1-u3-2
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Yummy birthday cake
-hint = A sweet party treat with frosting!
-imagePreset = cake
-
-[ITEM]
-id = s-g1-s1-u3-3
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Long yellow banana
-hint = A healthy snack monkeys love!
-imagePreset = banana
-
-[ITEM]
-id = s-g1-s1-u4-1
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Cozy red house
-hint = A warm home where families live!
-imagePreset = apple
-
-[ITEM]
 id = s-g1-s1-u4-3
 folderId = folder-starter-nature
 mode = sentence
@@ -137,15 +93,6 @@ category = Animals
 text = Little orange fish
 hint = Swimming happily in clear water!
 imagePreset = fish
-
-[ITEM]
-id = s-g1-s2-u1-3
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Busy yellow bee
-hint = Buzzing near sweet garden blooms!
-imagePreset = banana
 
 [ITEM]
 id = s-g1-s2-u2-1
@@ -175,15 +122,6 @@ hint = Giving cool shade in sunshine!
 imagePreset = tree
 
 [ITEM]
-id = s-g1-s2-u3-1
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Fresh cold milk
-hint = A healthy drink in a tall glass!
-imagePreset = milk
-
-[ITEM]
 id = s-g1-s2-u3-2
 folderId = folder-starter-nature
 mode = sentence
@@ -200,24 +138,6 @@ category = Nature & Sky
 text = Juicy green pear
 hint = A sweet fruit shaped like a bell!
 imagePreset = tree
-
-[ITEM]
-id = s-g1-s2-u4-1
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Round red ball
-hint = Bouncing high in the yard!
-imagePreset = apple
-
-[ITEM]
-id = s-g2-s1-u1-2
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Cute cat drinks milk
-hint = Purring happily by its bowl!
-imagePreset = milk
 
 [ITEM]
 id = s-g2-s1-u1-3
@@ -256,15 +176,6 @@ hint = Giving cool shade in the park!
 imagePreset = tree
 
 [ITEM]
-id = s-g2-s1-u3-2
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Red train rolls fast
-hint = Zooming along iron rails!
-imagePreset = apple
-
-[ITEM]
 id = s-g2-s1-u3-3
 folderId = folder-starter-animals
 mode = sentence
@@ -272,33 +183,6 @@ category = Animals
 text = Brown bear likes honey
 hint = A sweet forest snack!
 imagePreset = bear
-
-[ITEM]
-id = s-g2-s1-u4-1
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Sweet red apples fall
-hint = Dropping gently from the tree!
-imagePreset = apple
-
-[ITEM]
-id = s-g2-s1-u4-2
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Fresh green melon cools
-hint = A juicy summer fruit slice!
-imagePreset = watermelon
-
-[ITEM]
-id = s-g2-s1-u4-3
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Warm honey cake smells
-hint = Baked fresh in the kitchen!
-imagePreset = cake
 
 [ITEM]
 id = s-g2-s2-u1-3
@@ -337,15 +221,6 @@ hint = Opening pretty petals every morning!
 imagePreset = sun
 
 [ITEM]
-id = s-g2-s2-u3-1
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Yellow buses carry kids
-hint = Driving safely to school each day!
-imagePreset = banana
-
-[ITEM]
 id = s-g2-s2-u3-2
 folderId = folder-starter-nature
 mode = sentence
@@ -353,15 +228,6 @@ category = Nature & Sky
 text = Shiny bikes roll smoothly
 hint = Pedaling along sunny park paths!
 imagePreset = star
-
-[ITEM]
-id = s-g2-s2-u4-1
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Sweet purple grapes grow
-hint = Hanging in juicy bunches on vines!
-imagePreset = cake
 
 [ITEM]
 id = s-g2-s2-u4-2
@@ -508,24 +374,6 @@ hint = Working kindly together at desks!
 imagePreset = rabbit
 
 [ITEM]
-id = s-g3-s2-u4-1
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Farmers gather crisp red apples
-hint = Filling wooden baskets every autumn!
-imagePreset = apple
-
-[ITEM]
-id = s-g3-s2-u4-3
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Sweet golden pears fill crates
-hint = Ready for the busy market!
-imagePreset = cake
-
-[ITEM]
 id = s-g4-s1-u1-1
 folderId = folder-starter-animals
 mode = sentence
@@ -578,33 +426,6 @@ category = Nature & Sky
 text = Soft white clouds drift over mountains
 hint = Floating peacefully across the valley!
 imagePreset = cloud
-
-[ITEM]
-id = s-g4-s1-u4-1
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Sweet golden bananas ripen in sunshine
-hint = Turning bright yellow on tropical trees!
-imagePreset = banana
-
-[ITEM]
-id = s-g4-s1-u4-2
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Crunchy red apples fill wooden baskets
-hint = Picked fresh from the orchard!
-imagePreset = apple
-
-[ITEM]
-id = s-g4-s1-u4-3
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Juicy summer melons grow on vines
-hint = Sweet green fruit in warm gardens!
-imagePreset = watermelon
 
 [ITEM]
 id = s-g4-s2-u1-1
@@ -679,15 +500,6 @@ hint = Filling cozy kitchens with sweet aroma!
 imagePreset = cloud
 
 [ITEM]
-id = s-g4-s2-u4-3
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Crisp orchard pears ripen every September
-hint = Ready to pick in sunny baskets!
-imagePreset = apple
-
-[ITEM]
 id = s-g5-s1-u1-1
 folderId = folder-starter-animals
 mode = sentence
@@ -740,33 +552,6 @@ category = Nature & Sky
 text = Creative students paint colorful rainbows on big paper
 hint = Mixing bright shades during art class!
 imagePreset = rainbow
-
-[ITEM]
-id = s-g5-s1-u4-1
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Juicy red watermelon cools everyone on sunny days
-hint = A refreshing summer fruit slice!
-imagePreset = watermelon
-
-[ITEM]
-id = s-g5-s1-u4-2
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Crisp orchard apples give children healthy natural energy
-hint = Great for lunchboxes and snacks!
-imagePreset = apple
-
-[ITEM]
-id = s-g5-s1-u4-3
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Fresh berries and sweet bananas make tasty treats
-hint = Blended into delicious fruit smoothies!
-imagePreset = banana
 
 [ITEM]
 id = s-g5-s2-u1-2
@@ -823,15 +608,6 @@ hint = Packed with helpful natural vitamins!
 imagePreset = sun
 
 [ITEM]
-id = s-g5-s2-u4-2
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Colorful garden salads combine crisp lettuce and sweet carrots
-hint = Crunchy fresh vegetables grown locally!
-imagePreset = cake
-
-[ITEM]
 id = s-g5-s2-u4-3
 folderId = folder-starter-animals
 mode = sentence
@@ -850,15 +626,6 @@ hint = Amazing travelers guided by warm breezes!
 imagePreset = butterfly
 
 [ITEM]
-id = s-g6-s1-u1-2
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = The friendly giant elephant loves eating sweet red apples
-hint = Using its flexible trunk to reach fruit!
-imagePreset = apple
-
-[ITEM]
 id = s-g6-s1-u1-3
 folderId = folder-starter-animals
 mode = sentence
@@ -875,15 +642,6 @@ category = Nature & Sky
 text = Joyful community musicians perform lively concerts under twinkling stars
 hint = Filling warm evenings with bright melodies!
 imagePreset = star
-
-[ITEM]
-id = s-g6-s1-u4-1
-folderId = folder-starter-food
-mode = sentence
-category = Food & Treats
-text = Refreshing sweet watermelon tastes wonderful after sunny outdoor adventures
-hint = Sharing cool fruit slices with friends!
-imagePreset = watermelon
 
 [ITEM]
 id = s-g6-s1-u4-2
@@ -1003,24 +761,6 @@ hint = Tall plant with green leaves and branches!
 imagePreset = tree
 
 [ITEM]
-id = sp-g1-s1-u3-1
-folderId = folder-starter-food
-mode = spelling
-category = Food & Treats
-text = CAKE
-hint = A sweet birthday treat with frosting!
-imagePreset = cake
-
-[ITEM]
-id = sp-g1-s1-u3-2
-folderId = folder-starter-food
-mode = spelling
-category = Food & Treats
-text = MILK
-hint = A healthy white drink in a glass!
-imagePreset = milk
-
-[ITEM]
 id = sp-g1-s2-u1-1
 folderId = folder-starter-animals
 mode = spelling
@@ -1100,15 +840,6 @@ category = Nature & Sky
 text = MOON
 hint = Glows softly in the night sky!
 imagePreset = star
-
-[ITEM]
-id = sp-g2-s1-u4-1
-folderId = folder-starter-food
-mode = spelling
-category = Food & Treats
-text = APPLE
-hint = A crunchy red fruit you can eat!
-imagePreset = apple
 
 [ITEM]
 id = sp-g2-s2-u1-1
@@ -1255,15 +986,6 @@ hint = Early part of the day when sun rises!
 imagePreset = sun
 
 [ITEM]
-id = sp-g4-s1-u4-3
-folderId = folder-starter-food
-mode = spelling
-category = Food & Treats
-text = ORCHARD
-hint = A grove of trees growing delicious fruit!
-imagePreset = apple
-
-[ITEM]
 id = sp-g4-s2-u3-3
 folderId = folder-starter-nature
 mode = spelling
@@ -1309,15 +1031,6 @@ hint = Warm bright rays filling a happy day!
 imagePreset = sun
 
 [ITEM]
-id = sp-g5-s2-u3-1
-folderId = folder-starter-food
-mode = spelling
-category = Food & Treats
-text = THEATER
-hint = Stage where actors perform exciting plays!
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3ET%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
-
-[ITEM]
 id = sp-g6-s1-u1-1
 folderId = folder-starter-animals
 mode = spelling
@@ -1325,15 +1038,6 @@ category = Animals
 text = BUTTERFLY
 hint = Insect with colorful fluttering wings!
 imagePreset = butterfly
-
-[ITEM]
-id = sp-g6-s1-u4-1
-folderId = folder-starter-food
-mode = spelling
-category = Food & Treats
-text = WATERMELON
-hint = Big green summer fruit, sweet red inside!
-imagePreset = watermelon
 
 [ITEM]
 id = sp-g6-s2-u1-2
