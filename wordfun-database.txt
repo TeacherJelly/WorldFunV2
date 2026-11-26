@@ -5,15 +5,15 @@
 # ====================================================================
 @VERSION: 5.0
 @APP: Word Fun!: Kiddy Vocabulary Connect
-@SAVED_AT: 2026-11-26T10:49:55.516Z
-@FOLDER_COUNT: 7
-@ITEM_COUNT: 288
+@SAVED_AT: 2026-11-26T10:49:58.096Z
+@FOLDER_COUNT: 5
+@ITEM_COUNT: 282
 
 [SETTINGS]
 gameMode = spelling
 playerMode = two
 interactionMode = move_tap
-selectedFolderId = folder-1795575957467-d1u5
+selectedFolderId = folder-starter-animals
 showNumberHints = false
 musicEnabled = false
 musicTrackId = 3
@@ -29,13 +29,6 @@ githubSync = {"repo":"TeacherJelly/WorldFunV2","branch":"main","filePath":"wordf
 
 [FOLDERS]
 # Each [FOLDER] block stores a vocabulary folder.
-
-[FOLDER]
-id = folder-1795575957467-d1u5
-name = Another Sample Folder
-description = SampleFolder2
-createdAt = 2026-11-25T03:06:24.876Z
-updatedAt = 2026-11-25T03:07:05.269Z
 
 [FOLDER]
 id = folder-starter-animals
@@ -77,75 +70,8 @@ createdAt = 2026-01-01T08:20:00.000Z
 updatedAt = 2026-01-01T08:20:00.000Z
 isStarter = true
 
-[FOLDER]
-id = folder-custom-migrated
-name = My Custom Words
-description = Custom words and sentences saved from earlier sessions.
-createdAt = 2026-11-24T18:28:00.174Z
-updatedAt = 2026-11-24T18:28:00.174Z
-
 [VOCABULARY]
 # Each [ITEM] block represents one sentence or spelling word.
-
-[ITEM]
-id = custom-1795502981145-daun
-folderId = folder-custom-migrated
-mode = spelling
-category = Animals
-text = Bear
-isCustom = true
-imageName = Auto-matched: Bear
-imagePreset = bear
-
-[ITEM]
-id = custom-1795435953068-nmv4
-folderId = folder-custom-migrated
-mode = spelling
-category = Animals
-text = Dog
-isCustom = true
-imageName = Auto-matched: Puppy / Dog
-imagePreset = puppy
-
-[ITEM]
-id = custom-1795435950293-lain
-folderId = folder-custom-migrated
-mode = spelling
-category = Animals
-text = Cat
-isCustom = true
-imageName = Auto-matched: Cat / Kitty
-imagePreset = cat
-
-[ITEM]
-id = custom-1795435924074-mack
-folderId = folder-custom-migrated
-mode = spelling
-category = Vocabulary Fun
-text = Goat
-isCustom = true
-imageName = Matched: Goat
-imagePreset = goat
-
-[ITEM]
-id = custom-1794725391941-qgrf
-folderId = folder-custom-migrated
-mode = sentence
-category = Toys & Music
-text = There is a ball.
-isCustom = true
-imageName = Auto-matched: Ball / Play
-imagePreset = ball
-
-[ITEM]
-id = custom-1794724984799-jbn5
-folderId = folder-custom-migrated
-mode = sentence
-category = Vocabulary Fun
-text = I am tall.
-isCustom = true
-imageName = Auto-generated letter badge
-imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%238B5CF6%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
 
 [ITEM]
 id = s-g1-s1-u2-1
