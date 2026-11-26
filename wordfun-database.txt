@@ -5,9 +5,9 @@
 # ====================================================================
 @VERSION: 5.0
 @APP: Word Fun!: Kiddy Vocabulary Connect
-@SAVED_AT: 2026-11-26T13:02:54.458Z
+@SAVED_AT: 2026-11-26T13:03:05.567Z
 @FOLDER_COUNT: 4
-@ITEM_COUNT: 6
+@ITEM_COUNT: 7
 
 [SETTINGS]
 gameMode = spelling
@@ -34,7 +34,7 @@ githubSync = {"repo":"TeacherJelly/WorldFunV2","branch":"main","filePath":"wordf
 id = folder-1795698172955-mol7
 name = New Folder
 createdAt = 2026-11-26T13:02:52.954Z
-updatedAt = 2026-11-26T13:02:52.954Z
+updatedAt = 2026-11-26T13:03:04.054Z
 
 [FOLDER]
 id = folder-1795695462560-ot8f
@@ -57,6 +57,17 @@ updatedAt = 2026-11-26T10:51:34.696Z
 
 [VOCABULARY]
 # Each [ITEM] block represents one sentence or spelling word.
+
+[ITEM]
+id = custom-1795698184055-8ecd
+folderId = folder-1795698172955-mol7
+mode = spelling
+category = Animals
+text = Cat
+hint = Think of "Kitty" (3 letters, starts with C)!
+isCustom = true
+imageName = Auto-matched: Cat / Kitty
+imagePreset = cat
 
 [ITEM]
 id = custom-1795694615700-jhdn
