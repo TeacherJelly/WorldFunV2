@@ -5,9 +5,9 @@
 # ====================================================================
 @VERSION: 5.0
 @APP: Word Fun!: Kiddy Vocabulary Connect
-@SAVED_AT: 2026-11-26T10:50:54.682Z
+@SAVED_AT: 2026-11-26T10:51:17.408Z
 @FOLDER_COUNT: 1
-@ITEM_COUNT: 0
+@ITEM_COUNT: 1
 
 [SETTINGS]
 gameMode = spelling
@@ -35,7 +35,18 @@ id = folder-1795690214340-th6m
 name = Sample Folder
 description = Testing!!!
 createdAt = 2026-11-26T10:50:14.340Z
-updatedAt = 2026-11-26T10:50:53.180Z
+updatedAt = 2026-11-26T10:51:15.899Z
 
 [VOCABULARY]
 # Each [ITEM] block represents one sentence or spelling word.
+
+[ITEM]
+id = custom-1795690275899-wkt2
+folderId = folder-1795690214340-th6m
+mode = sentence
+category = Vocabulary Fun
+text = I am tall
+hint = 3-word giraffe sentence starting with "I"!
+isCustom = true
+imageName = Auto-matched: Giraffe
+imagePreset = giraffe
