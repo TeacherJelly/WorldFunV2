@@ -5,7 +5,7 @@
 # ====================================================================
 @VERSION: 5.0
 @APP: Word Fun!: Kiddy Vocabulary Connect
-@SAVED_AT: 2026-11-26T10:50:25.314Z
+@SAVED_AT: 2026-11-26T10:50:54.682Z
 @FOLDER_COUNT: 1
 @ITEM_COUNT: 0
 
@@ -32,9 +32,10 @@ githubSync = {"repo":"TeacherJelly/WorldFunV2","branch":"main","filePath":"wordf
 
 [FOLDER]
 id = folder-1795690214340-th6m
-name = New Folder
+name = Sample Folder
+description = Testing!!!
 createdAt = 2026-11-26T10:50:14.340Z
-updatedAt = 2026-11-26T10:50:14.340Z
+updatedAt = 2026-11-26T10:50:53.180Z
 
 [VOCABULARY]
 # Each [ITEM] block represents one sentence or spelling word.
