@@ -5,15 +5,15 @@
 # ====================================================================
 @VERSION: 5.0
 @APP: Word Fun!: Kiddy Vocabulary Connect
-@SAVED_AT: 2026-11-26T10:49:48.345Z
-@FOLDER_COUNT: 10
+@SAVED_AT: 2026-11-26T10:49:50.861Z
+@FOLDER_COUNT: 9
 @ITEM_COUNT: 295
 
 [SETTINGS]
 gameMode = spelling
 playerMode = two
 interactionMode = move_tap
-selectedFolderId = folder-1795582125022-0bxu
+selectedFolderId = folder-1795580140856-h6bf
 showNumberHints = false
 musicEnabled = false
 musicTrackId = 3
@@ -29,12 +29,6 @@ githubSync = {"repo":"TeacherJelly/WorldFunV2","branch":"main","filePath":"wordf
 
 [FOLDERS]
 # Each [FOLDER] block stores a vocabulary folder.
-
-[FOLDER]
-id = folder-1795582125022-0bxu
-name = New Folder
-createdAt = 2026-11-25T04:48:45.022Z
-updatedAt = 2026-11-25T04:48:45.022Z
 
 [FOLDER]
 id = folder-1795580140856-h6bf
