@@ -5,8 +5,8 @@
 # ====================================================================
 @VERSION: 5.0
 @APP: Word Fun!: Kiddy Vocabulary Connect
-@SAVED_AT: 2026-11-26T17:12:47.944Z
-@FOLDER_COUNT: 11
+@SAVED_AT: 2026-11-26T17:12:54.477Z
+@FOLDER_COUNT: 20
 @ITEM_COUNT: 12
 
 [SETTINGS]
@@ -30,6 +30,60 @@ githubSync = {"repo":"TeacherJelly/WorldFunV2","branch":"main","filePath":"wordf
 
 [FOLDERS]
 # Each [FOLDER] block stores a vocabulary folder.
+
+[FOLDER]
+id = folder-1795713172970-8pog
+name = New Folder 10
+createdAt = 2026-11-26T17:12:52.970Z
+updatedAt = 2026-11-26T17:12:52.970Z
+
+[FOLDER]
+id = folder-1795713172321-fo3i
+name = New Folder 9
+createdAt = 2026-11-26T17:12:52.321Z
+updatedAt = 2026-11-26T17:12:52.321Z
+
+[FOLDER]
+id = folder-1795713171920-s8oo
+name = New Folder 8
+createdAt = 2026-11-26T17:12:51.920Z
+updatedAt = 2026-11-26T17:12:51.920Z
+
+[FOLDER]
+id = folder-1795713171050-o860
+name = New Folder 7
+createdAt = 2026-11-26T17:12:51.050Z
+updatedAt = 2026-11-26T17:12:51.050Z
+
+[FOLDER]
+id = folder-1795713170496-8knh
+name = New Folder 6
+createdAt = 2026-11-26T17:12:50.496Z
+updatedAt = 2026-11-26T17:12:50.496Z
+
+[FOLDER]
+id = folder-1795713170057-y8t7
+name = New Folder 5
+createdAt = 2026-11-26T17:12:50.057Z
+updatedAt = 2026-11-26T17:12:50.057Z
+
+[FOLDER]
+id = folder-1795713169664-ignz
+name = New Folder 4
+createdAt = 2026-11-26T17:12:49.664Z
+updatedAt = 2026-11-26T17:12:49.664Z
+
+[FOLDER]
+id = folder-1795713169227-onja
+name = New Folder 3
+createdAt = 2026-11-26T17:12:49.227Z
+updatedAt = 2026-11-26T17:12:49.227Z
+
+[FOLDER]
+id = folder-1795713168826-p45a
+name = New Folder 2
+createdAt = 2026-11-26T17:12:48.826Z
+updatedAt = 2026-11-26T17:12:48.826Z
 
 [FOLDER]
 id = folder-1795713166435-ze8y
