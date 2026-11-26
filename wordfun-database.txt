@@ -5,15 +5,15 @@
 # ====================================================================
 @VERSION: 5.0
 @APP: Word Fun!: Kiddy Vocabulary Connect
-@SAVED_AT: 2026-11-26T10:49:50.861Z
-@FOLDER_COUNT: 9
-@ITEM_COUNT: 295
+@SAVED_AT: 2026-11-26T10:49:53.490Z
+@FOLDER_COUNT: 7
+@ITEM_COUNT: 288
 
 [SETTINGS]
 gameMode = spelling
 playerMode = two
 interactionMode = move_tap
-selectedFolderId = folder-1795580140856-h6bf
+selectedFolderId = folder-1795575957467-d1u5
 showNumberHints = false
 musicEnabled = false
 musicTrackId = 3
@@ -29,19 +29,6 @@ githubSync = {"repo":"TeacherJelly/WorldFunV2","branch":"main","filePath":"wordf
 
 [FOLDERS]
 # Each [FOLDER] block stores a vocabulary folder.
-
-[FOLDER]
-id = folder-1795580140856-h6bf
-name = Simple Animals
-description = Simple Animal Words
-createdAt = 2026-11-25T04:15:40.856Z
-updatedAt = 2026-11-25T04:26:37.192Z
-
-[FOLDER]
-id = folder-1795576053988-evpx
-name = Try Folder
-createdAt = 2026-11-25T03:10:24.366Z
-updatedAt = 2026-11-25T03:20:11.063Z
 
 [FOLDER]
 id = folder-1795575957467-d1u5
@@ -99,83 +86,6 @@ updatedAt = 2026-11-24T18:28:00.174Z
 
 [VOCABULARY]
 # Each [ITEM] block represents one sentence or spelling word.
-
-[ITEM]
-id = custom-1795580764454-fva2
-folderId = folder-1795580140856-h6bf
-mode = spelling
-category = Animals
-text = Cow
-hint = Animals word · 3 letters, starts with "C"!
-isCustom = true
-imageName = Auto-matched: Cow
-imagePreset = cow
-
-[ITEM]
-id = custom-1795580761436-x4rp
-folderId = folder-1795580140856-h6bf
-mode = spelling
-category = Animals
-text = Pig
-hint = Animals word · 3 letters, starts with "P"!
-isCustom = true
-imageName = Auto-matched: Pig
-imagePreset = pig
-
-[ITEM]
-id = custom-1795580753935-vwwz
-folderId = folder-1795580140856-h6bf
-mode = spelling
-category = Animals
-text = Cat
-hint = Think of "Kitty" (3 letters, starts with C)!
-isCustom = true
-imageName = Auto-matched: Cat / Kitty
-imagePreset = cat
-
-[ITEM]
-id = custom-1795580751418-2ejl
-folderId = folder-1795580140856-h6bf
-mode = spelling
-category = Animals
-text = Dog
-hint = Think of "Puppy" (3 letters, starts with D)!
-isCustom = true
-imageName = Auto-matched: Puppy / Dog
-imagePreset = puppy
-
-[ITEM]
-id = custom-1795576811065-gn2m
-folderId = folder-1795576053988-evpx
-mode = spelling
-category = Vocabulary Fun
-text = Run
-hint = Think of "Running Shoe" (3 letters, starts with R)!
-isCustom = true
-imageName = Auto-matched: Running Shoe / Sneaker
-imagePreset = sneaker
-
-[ITEM]
-id = custom-1795576674950-lepu
-folderId = folder-1795576053988-evpx
-mode = spelling
-category = Vehicles & Space
-text = Fly
-hint = Think of "Bird" (3 letters, starts with F)!
-isCustom = true
-imageName = Auto-matched: Bird / Bluebird
-imagePreset = bird
-
-[ITEM]
-id = custom-1795576666058-7ttn
-folderId = folder-1795576053988-evpx
-mode = spelling
-category = Vocabulary Fun
-text = Walk
-hint = Think of "Running Shoe" (4 letters, starts with W)!
-isCustom = true
-imageName = Auto-matched: Running Shoe / Sneaker
-imagePreset = sneaker
 
 [ITEM]
 id = custom-1795502981145-daun
