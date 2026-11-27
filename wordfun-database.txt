@@ -5,9 +5,9 @@
 # ====================================================================
 @VERSION: 5.0
 @APP: Word Fun!: Kiddy Vocabulary Connect
-@SAVED_AT: 2026-11-27T15:08:01.933Z
+@SAVED_AT: 2026-11-27T15:08:41.873Z
 @FOLDER_COUNT: 20
-@ITEM_COUNT: 18
+@ITEM_COUNT: 19
 
 [SETTINGS]
 gameMode = spelling
@@ -35,7 +35,7 @@ githubSync = {"repo":"TeacherJelly/WorldFunV2","branch":"main","filePath":"wordf
 id = folder-1795713172970-8pog
 name = Questions 1
 createdAt = 2026-11-26T17:12:52.970Z
-updatedAt = 2026-11-27T15:08:00.418Z
+updatedAt = 2026-11-27T15:08:40.335Z
 
 [FOLDER]
 id = folder-1795713172321-fo3i
@@ -154,6 +154,17 @@ updatedAt = 2026-11-26T10:51:34.696Z
 
 [VOCABULARY]
 # Each [ITEM] block represents one sentence or spelling word.
+
+[ITEM]
+id = custom-1795792120345-x963
+folderId = folder-1795713172970-8pog
+mode = sentence
+category = Clothes & Body
+text = What is this?
+hint = 3-word clothes & body sentence starting with "What"!
+isCustom = true
+imageName = Puzzle Piece
+imagePreset = puzzle
 
 [ITEM]
 id = custom-1795767325719-m8u7
