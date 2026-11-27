@@ -5,9 +5,9 @@
 # ====================================================================
 @VERSION: 5.0
 @APP: Word Fun!: Kiddy Vocabulary Connect
-@SAVED_AT: 2026-11-27T06:16:18.604Z
+@SAVED_AT: 2026-11-27T06:16:50.276Z
 @FOLDER_COUNT: 20
-@ITEM_COUNT: 13
+@ITEM_COUNT: 14
 
 [SETTINGS]
 gameMode = spelling
@@ -125,7 +125,7 @@ updatedAt = 2026-11-26T16:47:23.407Z
 id = folder-1795701559751-m8wx
 name = Customize Illustration
 createdAt = 2026-11-26T13:59:19.751Z
-updatedAt = 2026-11-27T06:16:17.088Z
+updatedAt = 2026-11-27T06:16:48.752Z
 
 [FOLDER]
 id = folder-1795698172955-mol7
@@ -154,6 +154,17 @@ updatedAt = 2026-11-26T10:51:34.696Z
 
 [VOCABULARY]
 # Each [ITEM] block represents one sentence or spelling word.
+
+[ITEM]
+id = custom-1795760208758-y4b4
+folderId = folder-1795701559751-m8wx
+mode = spelling
+category = Vocabulary Fun
+text = Jump
+hint = Think of "Frog" (4 letters, starts with J)!
+isCustom = true
+imageName = Auto-matched: Frog
+imagePreset = frog
 
 [ITEM]
 id = custom-1795760177094-at5f
