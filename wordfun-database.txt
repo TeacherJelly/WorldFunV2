@@ -5,9 +5,9 @@
 # ====================================================================
 @VERSION: 5.0
 @APP: Word Fun!: Kiddy Vocabulary Connect
-@SAVED_AT: 2026-11-27T06:33:35.613Z
+@SAVED_AT: 2026-11-27T06:35:32.704Z
 @FOLDER_COUNT: 20
-@ITEM_COUNT: 16
+@ITEM_COUNT: 17
 
 [SETTINGS]
 gameMode = spelling
@@ -125,7 +125,7 @@ updatedAt = 2026-11-26T16:47:23.407Z
 id = folder-1795701559751-m8wx
 name = Customize Illustration
 createdAt = 2026-11-26T13:59:19.751Z
-updatedAt = 2026-11-27T06:33:34.094Z
+updatedAt = 2026-11-27T06:35:31.187Z
 
 [FOLDER]
 id = folder-1795698172955-mol7
@@ -154,6 +154,17 @@ updatedAt = 2026-11-26T10:51:34.696Z
 
 [VOCABULARY]
 # Each [ITEM] block represents one sentence or spelling word.
+
+[ITEM]
+id = custom-1795761331193-uquc
+folderId = folder-1795701559751-m8wx
+mode = spelling
+category = Vocabulary Fun
+text = Better
+hint = Vocabulary Fun word · 6 letters, starts with "B"!
+isCustom = true
+imageName = Auto-generated letter badge
+imageUrl = data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2236%22%20fill%3D%22%23F8FAFC%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2264%22%20fill%3D%22%230EA5E9%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2254%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%228%208%22%20opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22100%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2272%22%20font-weight%3D%22900%22%20font-family%3D%22Fredoka%2C%20sans-serif%22%20fill%3D%22%23FFFFFF%22%3EB%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E
 
 [ITEM]
 id = custom-1795761214101-1dq4
