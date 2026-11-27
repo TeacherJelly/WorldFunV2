@@ -5,7 +5,7 @@
 # ====================================================================
 @VERSION: 5.0
 @APP: Word Fun!: Kiddy Vocabulary Connect
-@SAVED_AT: 2026-11-27T06:08:31.159Z
+@SAVED_AT: 2026-11-27T06:09:01.197Z
 @FOLDER_COUNT: 20
 @ITEM_COUNT: 12
 
@@ -125,7 +125,7 @@ updatedAt = 2026-11-26T16:47:23.407Z
 id = folder-1795701559751-m8wx
 name = Customize Illustration
 createdAt = 2026-11-26T13:59:19.751Z
-updatedAt = 2026-11-27T06:08:29.648Z
+updatedAt = 2026-11-27T06:08:59.687Z
 
 [FOLDER]
 id = folder-1795698172955-mol7
@@ -193,7 +193,7 @@ id = custom-1795701618631-n9xr
 folderId = folder-1795701559751-m8wx
 mode = spelling
 category = Animals
-text = Dinosaur
+text = Dino
 hint = Animals word · 8 letters, starts with "D"!
 isCustom = true
 imageName = cute-dinosaur-cartoon-tyrannosaurus-rex-vector.jpg
