@@ -5,7 +5,7 @@
 # ====================================================================
 @VERSION: 5.0
 @APP: Word Fun!: Kiddy Vocabulary Connect
-@SAVED_AT: 2026-11-28T12:54:25.183Z
+@SAVED_AT: 2026-11-28T12:54:33.075Z
 @FOLDER_COUNT: 20
 @ITEM_COUNT: 19
 
@@ -15,7 +15,7 @@ playerMode = single
 interactionMode = move_tap
 selectedFolderId = folder-1795701559751-m8wx
 showNumberHints = false
-theme = dark
+theme = light
 musicEnabled = false
 musicTrackId = 3
 musicVolume = 0.15
