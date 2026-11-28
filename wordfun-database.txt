@@ -5,13 +5,13 @@
 # ====================================================================
 @VERSION: 5.0
 @APP: Word Fun!: Kiddy Vocabulary Connect
-@SAVED_AT: 2026-11-28T06:18:47.228Z
+@SAVED_AT: 2026-11-28T06:20:17.447Z
 @FOLDER_COUNT: 20
 @ITEM_COUNT: 19
 
 [SETTINGS]
 gameMode = spelling
-playerMode = two
+playerMode = single
 interactionMode = swap_line
 selectedFolderId = folder-1795701559751-m8wx
 showNumberHints = false
